@@ -13,6 +13,7 @@ const element = document.createElement('div');
 element.style.width = '100%';
 element.style.height = '100%';
 element.style.boxSizing = 'initial';
+element.style.filter = 'invert(0.9) hue-rotate(180deg) brightness(1.5) contrast(1.3) saturate(0.3)';
 
 export const map = new maplibregl.Map({
   container: element,

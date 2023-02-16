@@ -4,8 +4,8 @@ import {
 
 const colors = {
   white: common.white,
-  background: grey[50],
-  primary: indigo[900],
+  background: grey[900],
+  primary: indigo[400],
   secondary: green[800],
   positive: green[500],
   medium: amber[700],
@@ -15,6 +15,7 @@ const colors = {
 };
 
 export default {
+  mode: 'dark',
   background: {
     default: colors.background,
   },

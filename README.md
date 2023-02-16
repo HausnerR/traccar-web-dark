@@ -1,4 +1,4 @@
-# [Traccar Web Interface](https://www.traccar.org)
+# [Traccar Web Interface - dark version](https://www.traccar.org)
 
 ## Overview
 
@@ -8,9 +8,9 @@ Traccar is open source server for various GPS tracking devices. This repository 
 
 New web app for Traccar. It uses modern technologies like React, Material UI etc. For more information on how to build it please check the [modern app documentation](https://www.traccar.org/build-web-app/).
 
-## Legacy web app
+## Dark version
 
-Old web app for Traccar. It uses Sencha Ext JS framework. For more information on how to build it please check [the legacy app documentation](https://www.traccar.org/build-extjs/).
+This repository contains changes to make whole UI dark. Build it as original web interface and then replace `modern` directory on Traccar server. Remember to clear browser cache.
 
 ## Team
 
@@ -20,5 +20,3 @@ Old web app for Traccar. It uses Sencha Ext JS framework. For more information o
 ## License
 
 Modern app uses Apache License, Version 2.0 license.
-
-Legacy app uses The GNU General Public License v3.0 license.
